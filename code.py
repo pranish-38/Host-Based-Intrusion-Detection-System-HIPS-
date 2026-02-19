@@ -190,7 +190,7 @@ class NetworkMonitor:
         while self.running:
             try:
                 self.check_connections()
-                time.sleep(3)
+                time.sleep(0.1)
             except Exception as e:
                 self.logger.log_error(f"Network monitor error: {e}")
     
