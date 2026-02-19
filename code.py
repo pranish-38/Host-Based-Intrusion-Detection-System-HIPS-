@@ -113,7 +113,7 @@ class ProcessMonitor:
         while self.running:
             try:
                 self.check_processes()
-                time.sleep(2)
+                time.sleep(0.1)
             except Exception as e:
                 self.logger.log_error(f"Process monitor error: {e}")
     
