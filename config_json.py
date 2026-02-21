@@ -15,7 +15,9 @@
         "john",
         "hydra",
         "nmap",
-        "metasploit"
+        "metasploit",
+        "nikto",
+        "sqlmap"
     ],
     "blocked_ports": [
         4444,
