@@ -61,10 +61,11 @@ The system continuously monitors system processes using psutil and tracks file s
 - Requires manual configuration for advanced detection
 
 ## 🔮 Future Improvements
-- Add machine learning-based anomaly detection
+- Adding GUI dashnoard for network usage, Graph of CPU usage etc
+- Real-time alert notifications by adding Desktop notifications
 - Improve prevention mechanisms
-- Add a graphical user interface (GUI)
 - Expand rule-based detection
+- Add machine learning-based anomaly detection
 
 ## 📄 License
 This project is developed for educational purposes.
